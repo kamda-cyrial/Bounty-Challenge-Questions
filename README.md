@@ -54,8 +54,9 @@
 
 
 	Resources:
-		
+		PDAs Solana bytes: https://www.youtube.com/watch?v=ZwFNPvqUclM
 		Transaction v0 & Lookup tables Solana bytes: https://www.youtube.com/watch?v=8k68cMeLX2U&t=14s
+		Solana Cookbook PDAs: https://solanacookbook.com/core-concepts/pdas.html#program-derived-addresses-pdas
 		Solana Cookbook Cross Program Invocations: https://solanacookbook.com/references/programs.html#how-to-do-cross-program-invocation
 		spl Program Token Transfer: https://github.com/solana-labs/solana-program-library/blob/master/token/program-2022/src/instruction.rs#L143
 	
