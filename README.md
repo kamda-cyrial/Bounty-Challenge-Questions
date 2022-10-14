@@ -1,5 +1,4 @@
 # Bounty-Challenge-Questions
-List of questions for solana 
 
 1.) Description:
 		This challenge, incites one to gain immense insight into Metaplex's NFT Standard
