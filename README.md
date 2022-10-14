@@ -20,13 +20,13 @@
 		This challenge, incites one to gain immense insight about what Program Derived addresses(PDAs) are, Finding one, and Signing Transactions with one.
 	
 	Challenge questions: 
-		q. What are PDAs
+		q. What are PDAs:
 			a. Program Derived addresses: These are addresses off the ed25519 curve, hence have no private keys. They are utilized by Program to sign transactions using the invoke_signed function.
 		q. How to do a Cross Program Invocation: 
 			a. Utilize the Invoke or Invoke_signed method in a program instruction, specifying the Transaction instructions, Accounts, and signatures if necessary, or use anchor's cpiContext
 		q.) How to sign a transaction with a PDA:
 			a.) use the invoke_signed function to provide the seed and bump utilized to generate the pda, alongside the TransactionInstruction + the accounts.
-		q.) How to store data into an account
+		q.) How to store data into an account:
 			a.) Create the account to stor the data into while allocating the appropriate space, and providen enough rent lamports, then add the data in question into the data field of the account info struct, utilizing the program that owns the account.
 
 	Resources:
@@ -43,7 +43,7 @@
 		This challenge, incites one to gain immense insight into Solana Transaction v2 format, and apply it to a plausible problem
 
 	Challenge questions: 
-		q. What are PDAs
+		q. What are PDAs:
 			a. Program Derived addresses: These are addresses off the ed25519 curve, hence have no private keys. They are utilized by Program to sign transactions using the invoke_signed function.
 		q. How to do a Cross Program Invocation: 
 			a. Utilize the Invoke or Invoke_signed method in a program instruction, specifying the Transaction instructions, Accounts, and signatures if necessary or use anchor's cpiContext
